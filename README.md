@@ -53,7 +53,7 @@ This script will periodically collect RAM statistics and store them in the SQLit
 - The FastAPI application provides an API to retrieve RAM statistics.
 - To access the API, run the FastAPI server:
 
-    `uvicorn api.main:app --host 0.0.0.0 --port 8000`
+    `uvicorn api.main:app --reload`
 
     You can access the API at
 
